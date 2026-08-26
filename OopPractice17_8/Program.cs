@@ -10,7 +10,8 @@ namespace OopPractice17_8
             //Q1 : 
             // a: the original variable doesn't change due to the struct copy behavior so only
             //the copy us affected (struct is a value type)
-            //b : both original and copy change bec class doesn't have copy behavior (refrence type)
+            //b : both original and copy change bec class doesn't have copy behavior (refrence type) 
+
             DeliveryCenter center = new DeliveryCenter();
 
             Shipment sh1 = new Shipment();
